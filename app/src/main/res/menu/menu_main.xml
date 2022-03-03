@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/seleccionar_num_letras"
+        android:title="Número de letras" />
+
+    <item
+        android:id="@+id/menu_ayuda"
+        android:title="Ayuda" />
+</menu>

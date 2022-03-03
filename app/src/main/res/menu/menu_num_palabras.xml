@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_letras5"
+        android:title="5 letras" />
+    <item
+        android:id="@+id/menu_letras6"
+        android:title="6 letras" />
+    <item
+        android:id="@+id/menu_letras7"
+        android:title="7 letras" />
+    <item
+        android:id="@+id/menu_letras8"
+        android:title="8 letras" />
+    <item
+        android:id="@+id/menu_letras9"
+        android:title="9 letras" />
+</menu>

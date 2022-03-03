@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="AYUDA"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Descubre la palabra secreta, tienes 6 intentos. Las letras se pondrán en verde si están en su posición correcta. Si una letra está en la palabra secreta pero no está en su sitio, aparecerá en amarillo. Las palabras deberán estar en el diccionario (pillado de internet y que salen unas palabras un poco raras) \n\n Programa desarrollado por Juan Luis Perea en 2 días, cualquier fallo achacarlo a su torpeza programando y en general también. \n 😜"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button_ayuda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="VALE" />
+
+    <Space
+        android:layout_width="400dp"
+        android:layout_height="wrap_content" />
+</LinearLayout>
